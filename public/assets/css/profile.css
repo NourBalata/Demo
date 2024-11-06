@@ -1,0 +1,77 @@
+
+    .profile-container { background-color: #fbfbfb; display: flex; width: 100%; flex-direction: column; overflow: hidden; }
+    .content-wrapper { width: 100%; }
+    .two-column-layout { display: flex; gap: 20px; }
+    .main-column { display: flex; flex-direction: column; width: 81%; }
+    .user-info-card { background-color: #fff; box-shadow: 0 2px 8px 2px rgba(95, 158, 160, 0.05); display: flex; width: 100%; flex-direction: column; justify-content: center; margin: 0 auto; padding: 45px 28px; }
+    .user-details { display: flex; width: 100%; align-items: center; gap: 40px 75px; justify-content: flex-end; flex-wrap: wrap; }
+    .user-name-rating { align-self: stretch; display: flex; min-width: 240px; align-items: center; gap: 16px; justify-content: flex-start; flex-grow: 1; width: 873px; margin: auto 0; }
+    .name-rating-wrapper { align-self: stretch; display: flex; align-items: center; gap: 8px; justify-content: flex-start; margin: auto 0; }
+    .name-rating { align-self: stretch; display: flex; flex-direction: column; justify-content: flex-start; width: 123px; margin: auto 0; }
+    .user-name { align-self: stretch; width: 100%; color: #5f9ea0; text-align: right; letter-spacing: -0.14px; font: 400 14px Araboto-Normal, sans-serif; }
+    .rating-stars { align-self: flex-end; display: flex; align-items: center; gap: 2px; justify-content: flex-end; }
+    .star-icon { aspect-ratio: 1; object-fit: contain; object-position: center; width: 14px; align-self: stretch; margin: auto 0; }
+    .user-avatar { aspect-ratio: 1; object-fit: contain; object-position: center; width: 44px; border-radius: 50%; align-self: stretch; margin: auto 0; }
+    .balance-info { align-items: center; border-radius: 10px; background: #fff; display: flex; gap: 8px; color: #5f9ea0; text-align: right; letter-spacing: -0.14px; justify-content: flex-start; margin: auto 0; padding: 14px 8px; font: 400 14px Araboto-Normal, sans-serif; }
+    .balance-text { align-self: stretch; margin: auto 0; }
+    .balance-icon { aspect-ratio: 1; object-fit: contain; object-position: center; width: 24px; align-self: stretch; margin: auto 0; }
+    .user-display-name { align-self: stretch; width: 118px; gap: 40px 75px; color: #001e21; text-align: right; flex-grow: 1; margin: auto 0; font: all-small-caps 400 24px Araboto-Bold, -apple-system, Roboto, Helvetica, sans-serif; }
+    .sidebar-column { display: flex; flex-direction: column; width: 19%; margin-left: 20px; }
+    .sidebar-content { background-color: #fff; display: flex; flex-grow: 1; flex-direction: column; width: 100%; padding: 33px 54px 14px; }
+    .sidebar-logo { aspect-ratio: 1.53; object-fit: contain; object-position: center; width: 147px; }
+    .main-content { display: flex; gap: 18px; font-weight: 400; flex-wrap: wrap; }
+    .sidebar-image { aspect-ratio: 0.23; object-fit: contain; object-position: center; width: 203px; max-width: 100%; }
+    .registration-form { border-radius: 32px; background-color: #fff; align-self: flex-start; display: flex; margin-top: 26px; flex-direction: column; justify-content: center; padding: 42px; }
+    .form-content { display: flex; width: 100%; flex-direction: column; justify-content: center; }
+    .form-title { color: #1b676f; text-align: center; align-self: flex-end; font: 24px Araboto-Medium, sans-serif; }
+    .form-fields { display: flex; margin-top: 32px; width: 100%; flex-direction: column; justify-content: flex-start; }
+    .field-row { display: flex; width: 100%; align-items: center; gap: 40px 48px; text-align: right; justify-content: flex-start; flex-wrap: wrap; }
+    .text-field { border-radius: 8px; background-color: #fff; align-self: stretch; position: relative; display: flex; min-width: 240px; min-height: 48px; flex-direction: column; justify-content: flex-start; flex-grow: 1; width: 319px; margin: auto 0; }
+    .input-wrapper { justify-content: flex-end; align-items: center; border-radius: 8px; border: 1px solid #1b676f; background-color: #fff; z-index: 0; display: flex; min-height: 48px; width: 100%; gap: 4px; color: #001e21; padding: 12px 8px; font: 16px Araboto-Light, sans-serif; }
+    .input-text { align-self: stretch; min-width: 240px; overflow: hidden; flex: 1; margin: auto 0; }
+    .input-icon { aspect-ratio: 1; object-fit: contain; object-position: center; width: 24px; align-self: stretch; margin: auto 0; }
+    .input-label { font-feature-settings: "liga" off, "clig" off; align-self: flex-start; background-color: #fff; position: absolute; gap: 10px; color: #1b676f; right: 8px; top: -10px; padding: 0 4px; font: 14px Araboto-Medium, sans-serif; }
+    .gender-field { align-self: stretch; display: flex; min-width: 240px; align-items: center; gap: 40px 100px; font-size: 14px; text-align: center; justify-content: space-between; flex-grow: 1; width: 319px; margin: auto 0; }
+    .gender-options { align-self: stretch; display: flex; align-items: flex-start; gap: 20px; font-family: Araboto-Light, sans-serif; justify-content: flex-start; margin: auto 0; }
+    .gender-option { border-radius: 8px; background-color: #fff; display: flex; min-height: 58px; flex-direction: column; justify-content: flex-start; width: 89px; }
+    .gender-input { align-self: stretch; flex: 1; border-radius: 8px; border: 1px solid #eaecec; min-height: 48px; width: 100%; gap: 4px; padding: 14px 8px; }
+    .gender-label { color: #1b676f; font-family: Araboto-Medium, sans-serif; align-self: stretch; margin: auto 0; }
+    .form-buttons { display: flex; margin-top: 38px; width: 100%; align-items: flex-start; gap: 40px 100px; text-align: center; justify-content: space-between; flex-wrap: wrap; font: 14px Araboto-Medium, sans-serif; }
+    .save-button { font-variant: all-small-caps; align-self: stretch; flex: 1; border-radius: 10px; background: #1b676f; min-width: 240px; min-height: 58px; gap: 8px; color: #fff; width: 402px; padding: 24px 16px; }
+    .change-password { font-variant: all-small-caps; align-self: stretch; width: 187px; border-bottom: 1px solid #5f9ea0; min-height: 58px; gap: 8px; color: #5f9ea0; padding: 24px 0; }
+    .sidebar-menu { background-color: #fff; box-shadow: 0 -4px 8px 2px rgba(95, 158, 160, 0.05); display: flex; flex-direction: column; color: #1b676f; text-align: right; padding: 24px 18px 235px; font: 16px Araboto-Normal, sans-serif; }
+    .menu-items { display: flex; width: 100%; flex-direction: column; justify-content: flex-start; }
+    .menu-item { border-radius: 10px; background-color: #fff; display: flex; width: 100%; align-items: center; gap: 8px; justify-content: flex-end; padding: 9px 16px; }
+    .menu-text { font-variant: all-small-caps; align-self: stretch; flex: 1; flex-basis: 0%; margin: auto 0; }
+    .menu-icon { aspect-ratio: 1; object-fit: contain; object-position: center; width: 24px; align-self: stretch; margin: auto 0; }
+    
+    @media (max-width: 991px) {
+      .profile-container { max-width: 100%; }
+      .content-wrapper { max-width: 100%; }
+      .two-column-layout { flex-direction: column; align-items: stretch; gap: 0; }
+      .main-column { width: 100%; }
+      .user-info-card { max-width: 100%; padding-left: 20px; }
+      .user-details { max-width: 100%; }
+      .user-name-rating { max-width: 100%; }
+      .sidebar-column { width: 100%; }
+      .sidebar-content { padding: 0 20px; }
+      .registration-form { max-width: 100%; padding: 0 20px; }
+      .form-content { max-width: 100%; }
+      .field-row { max-width: 100%; }
+      .input-wrapper { white-space: initial; }
+      .input-text { white-space: initial; }
+      .input-label { white-space: initial; }
+      .gender-options { white-space: initial; }
+      .gender-option { white-space: initial; }
+      .gender-input { white-space: initial; }
+      .save-button { white-space: initial; }
+      .change-password { white-space: initial; }
+      .sidebar-menu { padding-bottom: 100px; }
+      .menu-item { white-space: initial; }
+    }
+
+
+
+
+
+   

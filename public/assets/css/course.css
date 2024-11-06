@@ -1,0 +1,92 @@
+.container { display: flex; flex-direction: column; align-items: flex-end; padding: 0 80px; }
+.course-section { background-color: #f0f2f2; display: flex; width: 100%; max-width: 1440px; flex-direction: column; overflow: hidden; }
+.content-wrapper { gap: 20px; display: flex; }
+.main-content { display: flex; flex-direction: column; line-height: normal; width: 81%; margin-left: 0; }
+.user-info-card { background-color: #fff; box-shadow: 0 2px 8px 2px rgba(95, 158, 160, 0.05); display: flex; width: 100%; flex-direction: column; justify-content: center; margin: 0 auto; padding: 46px 28px; }
+.user-info-wrapper { display: flex; width: 100%; align-items: center; gap: 27px; justify-content: flex-end; flex-wrap: wrap; }
+.user-details { align-self: stretch; display: flex; min-width: 240px; align-items: center; gap: 40px 75px; justify-content: flex-start; flex-grow: 1; width: 879px; margin: auto 0; }
+.user-name-rating { align-self: stretch; display: flex; min-width: 240px; width: 418px; align-items: center; gap: 16px; justify-content: flex-start; margin: auto 0; }
+.user-name-wrapper { align-self: stretch; display: flex; align-items: center; gap: 8px; justify-content: flex-start; margin: auto 0; }
+.user-name { align-self: stretch; display: flex; flex-direction: column; justify-content: flex-start; width: 123px; margin: auto 0; }
+.user-name-text { display: flex; width: 100%; align-items: center; color: #5f9ea0; text-align: right; letter-spacing: -0.14px; justify-content: flex-end; font: 400 14px Araboto-Normal, sans-serif; }
+.user-icon { aspect-ratio: 1; object-fit: contain; object-position: center; width: 24px; align-self: stretch; margin: auto 0; }
+.user-rating { align-self: flex-end; display: flex; align-items: center; gap: 2px; justify-content: flex-end; }
+.star-icon { aspect-ratio: 1; object-fit: contain; object-position: center; width: 14px; align-self: stretch; margin: auto 0; }
+.user-avatar { aspect-ratio: 1; object-fit: contain; object-position: center; width: 44px; border-radius: 0; align-self: stretch; margin: auto 0; }
+.user-balance { align-items: center; border-radius: 10px; background: #fff; display: flex; gap: 8px; color: #5f9ea0; text-align: right; letter-spacing: -0.14px; justify-content: flex-start; margin: auto 0; padding: 14px 8px; font: 400 14px Araboto-Normal, sans-serif; }
+.section-title { color: #001e21; text-align: right; leading-trim: both; text-edge: cap; align-self: stretch; margin: auto 0; font: 400 24px Araboto-Bold, -apple-system, Roboto, Helvetica, sans-serif; }
+.logo-wrapper { display: flex; flex-direction: column; line-height: normal; width: 19%; margin-left: 20px; }
+.logo-container { background-color: #fff; display: flex; flex-grow: 1; flex-direction: column; width: 100%; padding: 33px 54px 14px; }
+.logo { aspect-ratio: 1.53; object-fit: contain; object-position: center; width: 147px; }
+.teacher-selection { align-self: flex-end; width: 100%; max-width: 1221px; }
+.teacher-selection-content { gap: 20px; display: flex; }
+.teacher-list { display: flex; flex-direction: column; line-height: normal; width: 77%; margin-left: 0; }
+.teacher-selection-header { display: flex; margin-top: 24px; width: 100%; flex-direction: column; }
+.teacher-selection-title { justify-content: flex-end; align-items: center; border-radius: 8px; background: #fff; display: flex; width: 100%; gap: 10px; flex-wrap: wrap; padding: 20px 10px; }
+.title-text { color: #001e21; text-align: center; leading-trim: both; text-edge: cap; align-self: stretch; flex: 1; flex-basis: 0%; margin: auto 0; font: 400 24px Araboto-Medium, sans-serif; }
+.title-icon { align-self: stretch; display: flex; align-items: flex-start; gap: 16px; justify-content: flex-end; width: 30px; margin: auto 0; }
+.title-icon-img { aspect-ratio: 1; object-fit: contain; object-position: center; width: 30px; }
+.teacher-selection-steps { border-radius: 10px; background-color: #fff; display: flex; margin-top: 16px; width: 100%; flex-direction: column; overflow: hidden; justify-content: flex-start; padding: 40px 20px; }
+.steps-container { align-self: center; display: flex; width: 550px; max-width: 100%; align-items: center; gap: 24px; font-family: Araboto-Normal, sans-serif; font-weight: 400; text-align: right; justify-content: space-between; flex-wrap: wrap; }
+.step { border-radius: 8px; background-color: #fff; align-self: stretch; display: flex; align-items: center; gap: 8px; justify-content: flex-start; margin: auto 0; padding: 10px; }
+.step-text { color: #001e21; leading-trim: both; text-edge: cap; font-size: 18px; align-self: stretch; margin: auto 0; }
+.step-number { leading-trim: both; text-edge: cap; border-radius: 2px; background: #1b676f; align-self: stretch; min-height: 29px; font-size: 14px; color: #fff; white-space: nowrap; width: 29px; height: 29px; margin: auto 0; padding: 0 7px; }
+.step-divider { background-color: #1b676f; align-self: stretch; width: 170px; height: 1px; margin: auto 0; border: 1px solid #1b676f; }
+.teacher-list-container { display: flex; margin-top: 36px; width: 100%; flex-direction: column; justify-content: flex-start; }
+.teacher-list-header { display: flex; width: 100%; align-items: center; gap: 8px; justify-content: flex-start; flex-wrap: wrap; }
+.filter-button { align-items: center; border-radius: 8px; border: 1px solid #ea3700; background-color: rgba(234, 55, 0, 0.05); align-self: stretch; display: flex; gap: 4px; justify-content: flex-start; width: 32px; margin: auto 0; padding: 10px; }
+.filter-icon { aspect-ratio: 1.2; object-fit: contain; object-position: center; width: 12px; fill: #ea3700; stroke-width: 1.31px; stroke: #ea3700; align-self: stretch; margin: auto 0; }
+.sort-button { align-items: center; border-radius: 8px; border: 1px solid #1b676f; align-self: stretch; display: flex; gap: 40px 232px; justify-content: flex-start; width: 32px; height: 32px; margin: auto 0; padding: 10px; }
+.sort-icon { aspect-ratio: 1; object-fit: contain; object-position: center; width: 12px; align-self: stretch; margin: auto 0; }
+.teacher-cards { overflow-x: auto; display: flex; margin-top: 8px; width: 100%; align-items: center; gap: 16px; justify-content: flex-end; }
+.teacher-card { background-color: #fff; align-self: stretch; position: relative; display: flex; flex-direction: column; justify-content: flex-start; width: 234px; margin: auto 0; padding: 8px 7px; }
+.teacher-image { aspect-ratio: 1.24; object-fit: contain; object-position: center; width: 100%; border-radius: 6px; z-index: 0; }
+.teacher-info { z-index: 0; display: flex; margin-top: 12px; width: 100%; flex-direction: column; justify-content: center; }
+.teacher-name-bio { display: flex; width: 100%; flex-direction: column; color: #001e21; font-weight: 400; text-align: right; justify-content: flex-start; }
+.teacher-name { leading-trim: both; text-edge: cap; font: 17px Araboto-Medium, sans-serif; }
+.teacher-bio { leading-trim: both; text-edge: cap; margin-top: 12px; font: 11px Araboto-Normal, sans-serif; }
+.teacher-divider { background-color: #eaecec; min-height: 0; margin-top: 12px; width: 100%; border: 1px solid #eaecec; }
+.teacher-details { align-self: flex-end; display: flex; margin-top: 12px; flex-direction: column; align-items: flex-end; justify-content: center; }
+.teacher-specialty { color: #001e21; text-align: right; leading-trim: both; text-edge: cap; font: 400 11px Araboto-Normal, sans-serif; }
+.teacher-readings { color: #001e21; text-align: right; leading-trim: both; text-edge: cap; margin-top: 6px; font: 400 11px Araboto-Normal, sans-serif; }
+.teacher-rating { display: flex; margin-top: 6px; align-items: center; gap: 2px; justify-content: flex-end; }
+.rating-star { aspect-ratio: 1; object-fit: contain; object-position: center; width: 10px; align-self: stretch; margin: auto 0; }
+.favorite-button { position: absolute; z-index: 0; display: flex; width: 19px; flex-direction: column; left: 8px; bottom: 124px; height: 19px; }
+.favorite-icon { display: flex; height: 19px; }
+.action-buttons { display: flex; margin-top: 36px; width: 100%; align-items: flex-start; gap: 40px; text-align: center; justify-content: flex-start; flex-wrap: wrap; font: 400 14px Araboto-Medium, sans-serif; }
+.save-plan-button { leading-trim: both; text-edge: cap; font-variant: all-small-caps; align-self: stretch; flex: 1; border-radius: 10px; background: #1b676f; min-width: 240px; min-height: 40px; gap: 8px; color: #fff; height: 40px; padding: 15px 16px; }
+.previous-button { leading-trim: both; text-edge: cap; font-variant: all-small-caps; align-self: stretch; flex: 1; border-radius: 10px; border: 1px solid #5f9ea0; min-width: 240px; min-height: 40px; gap: 8px; color: #5f9ea0; white-space: nowrap; height: 40px; padding: 15px 16px; }
+.sidebar { display: flex; flex-direction: column; line-height: normal; width: 23%; margin-left: 20px; }
+.sidebar-content { background-color: #fff; box-shadow: 0 -4px 8px 2px rgba(95, 158, 160, 0.05); display: flex; flex-grow: 1; flex-direction: column; color: #1b676f; text-align: right; width: 100%; padding: 24px 18px 235px; font: 400 16px Araboto-Normal, sans-serif; }
+.menu-sections { display: flex; width: 100%; flex-direction: column; justify-content: flex-start; }
+.menu-item { border-radius: 10px; background-color: #fff; display: flex; width: 100%; align-items: center; gap: 8px; justify-content: flex-end; padding: 9px 16px; }
+.menu-text { leading-trim: both; text-edge: cap; font-variant: all-small-caps; align-self: stretch; flex: 1; flex-basis: 0%; margin: auto 0; }
+.menu-item-active { justify-content: flex-end; align-items: center; border-radius: 10px; background: #1b676f; display: flex; margin-top: 16px; width: 100%; gap: 8px; font-family: Araboto-Medium, sans-serif; color: #fff; white-space: nowrap; padding: 9px 16px; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+@media (max-width: 991px) {
+    .container { padding-left: 20px; }
+    .course-section { max-width: 100%; }
+    .content-wrapper { flex-direction: column; align-items: stretch; gap: 0; }
+    .main-content { width: 100%; }
+    .user-info-card { max-width: 100%; padding-left: 20px; }
+    .user-info-wrapper { max-width: 100%; }
+    .user-details { max-width: 100%; }
+    .step-number { white-space: initial; }
+    .teacher-selection { max-width: 100%; }
+    .teacher-selection-content { flex-direction: column; align-items: stretch; gap: 0; }
+    .teacher-list { width: 100%; }
+    .teacher-selection-header { max-width: 100%; margin-top: 40px; }
+    .teacher-selection-title { max-width: 100%; margin-right: 3px; }
+    .title-text { max-width: 100%; }
+    .teacher-selection-steps { max-width: 100%; }
+    .teacher-list-container { max-width: 100%; }
+    .teacher-list-header { max-width: 100%; }
+    .teacher-cards { max-width: 100%; }
+    .action-buttons { max-width: 100%; }
+    .save-plan-button { max-width: 100%; }
+    .previous-button { max-width: 100%; white-space: initial; }
+    .sidebar { width: 100%; }
+    .sidebar-content { margin-top: 17px; padding-bottom: 100px; }
+    .menu-item-active { white-space: initial; }
+}
